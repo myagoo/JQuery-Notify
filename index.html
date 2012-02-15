@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html style="height:105%;">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>JQuery Notifier - Display notification one at a time using JQuery, by myagoo</title>
+
+  <script type='text/javascript' src='http://code.jquery.com/jquery-1.7.1.js'></script>
+  <script type='text/javascript' src='jquery.notifier.js'></script>
+
+  <link rel="stylesheet" type="text/css" href="jquery.notifier.css">
+
+<script type='text/javascript'>//<![CDATA[
+	$(document).ready(function() {
+		$(this).click(function() {
+		    $.notify({
+		        type: 'error',
+		        delay: 4000,
+		        message: 'This is a 4 seconds delayed notification'
+		    });
+		}).keypress(function() {
+		    $.notify({
+		        title: 'Notification',
+		        message: 'This is a basic titled notification'
+		    });
+		});
+		$('.alt-notifier').hover(function(){
+			$.notify({
+		        title: 'Notification',
+		        type: 'success',
+		        delay: 500,
+		        element: '.alt-notifier',
+		        message: 'This is a titled and delayed success notification sent to custom elements'
+		    });
+		});
+	});
+//]]></script>
+
+</head>
+<body style="height:101%;">
+Click to send an error notification with 4 seconds delay
+<br/>
+or
+<br/>
+Press any key to send a notification with a title
+<br/>
+or
+<br/>
+Resize the window to send a fully customized notification
+<div class="alt-notifier">We will receive notification on hover</div>
+<div class="alt-notifier">We will receive notification on hover</div>
+<div class="alt-notifier">We will receive notification on hover</div>
+</body>
+
+
+</html>
