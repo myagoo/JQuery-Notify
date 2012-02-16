@@ -10,8 +10,8 @@ Demo in index.html
  - Do nothing more than display a message in a div, customization is yours
 
 ## Usage
-`$.notify({
-	title: 'My title here', //(String) (Optional) Your notification title
+`$.notify({\n
+	title: 'My title here', //(String) (Optional) Your notification title\n
 	type: 'success', //(String) (Optional) Your notification type (will be used as class for your notification)
 	message: 'My message here', //(String) Your notification message
 	delay: 1000 //(Integer) (Optional) (Default=2000) Amount of time in millisecond the notification will be displayed (plus the animations time)
