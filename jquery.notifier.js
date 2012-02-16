@@ -3,8 +3,7 @@ $.extend({
         var html = [];
         var defaults = {
             delay: 2000,
-            element: '#notifier',
-            className: 'alert'
+            element: '#notifier'
         };
         var settings = $.extend({}, defaults, options);
         var $element = $(settings.element);
