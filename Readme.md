@@ -1,6 +1,6 @@
 #JQuery Notifier Plugin
 Display notification one at a time using this JQuery plugin.
-Demo in index.html
+Demo (here) [http://jsfiddle.net/myagoo/y7tMQ/1/]
 
 ## Features
  - Notifications are queued so only one at a time will be displayed
