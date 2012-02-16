@@ -10,6 +10,8 @@ Demo in index.html
  - Do nothing more than display a message in a div, customization is yours
 
 ## Usage
+Here is an example code :
+
 	$.notify({
 		title: 'My title here', //(String) (Optional) Your notification title
 		type: 'success', //(String) (Optional) Your notification type (will be used as class for your notification)
