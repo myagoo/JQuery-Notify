@@ -1,11 +1,11 @@
 #JQuery Notifier Plugin
-Display notification one at a time using this JQuery plugin.
+Display notifications one at a time using this JQuery plugin.
 
 Demo [here] (http://jsfiddle.net/myagoo/y7tMQ/1/).
 
 ## Features
  - Notifications are queued so only one at a time will be displayed
- - Come with a twitter-bootstrap matching style
+ - Shipped with a "twitter-bootstrap alert" like style
  - Lightweight
  - Click on the notification to stop the waiting time and go to the next notification
  - Do nothing more than display a message in a div, customization is yours
@@ -28,5 +28,4 @@ Here is an example code :
  - Customizable animations
 
 ## Authors
-
 Millagou Benjamin
