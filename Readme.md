@@ -10,14 +10,14 @@ Demo in index.html
  - Do nothing more than display a message in a div, customization is yours
 
 ## Usage
-`$.notify({</br>
-	title: 'My title here', //(String) (Optional) Your notification title</br>
+$.notify({
+	title: 'My title here', //(String) (Optional) Your notification title
 	type: 'success', //(String) (Optional) Your notification type (will be used as class for your notification)
 	message: 'My message here', //(String) Your notification message
 	delay: 1000 //(Integer) (Optional) (Default=2000) Amount of time in millisecond the notification will be displayed (plus the animations time)
 	element: '#notify-element', //(String/DOM Element) (Default="#notifier") Element(s) to receive your notification, if not found, will create or use "#notifier"
 	className: 'alert' //(String) (Optional) Add this class to your notification, may be usefull to match your alert message style for example
-});`
+});
 
 ## Roadmap
  - Event triggering when queue is empty
